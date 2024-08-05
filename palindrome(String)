@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println( "Enter a string");
+        String a= s.nextLine();
+        String rev = new StringBuilder(a).reverse().toString();
+        if(a.equals(rev))
+        {
+            System.out.println("ITS a polindrome ");
+        }
+        else
+        {
+            System.out.println("Not polindrome");
+        }
+        
+        
+        
+    }
+}
+        
